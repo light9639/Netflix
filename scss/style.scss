@@ -1384,7 +1384,7 @@ header {
                 }
                 &:hover .content span {
                     background-color: $메인컬러;
-                    border: 1px solid $메인컬러;
+                    // border: 2px solid $메인컬러;
                     color: #fff;
                 }
                 @include respond($pc1024) {
@@ -1395,12 +1395,16 @@ header {
                     top: 75%;
                     width: 100%;
                     span {
-                        padding: 5px 10px;
-                        border: 1px solid $메인컬러;
+                        padding: 10px 15px;
+                        // border: 2px solid rgb(255, 0, 0, 0.5);
+                        background-color: rgb(255, 0, 0, 0.75);
+                        color: #fff;
                         transition: .5s;
+                        font-weight: 600;
+                        border-radius: 5px;
                     }
                     p {
-                        margin-top: 20px;
+                        margin-top: 30px;
                         font-size: 20px;
                         overflow: hidden;
                         letter-spacing: -0.5px;

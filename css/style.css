@@ -1528,7 +1528,6 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
 }
 #fullpage #section6 .container a:hover .content span {
   background-color: red;
-  border: 1px solid red;
   color: #fff;
 }
 @media screen and (max-width: 1024px) {
@@ -1542,13 +1541,16 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   width: 100%;
 }
 #fullpage #section6 .container a .content span {
-  padding: 5px 10px;
-  border: 1px solid red;
+  padding: 10px 15px;
+  background-color: rgba(255, 0, 0, 0.75);
+  color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  font-weight: 600;
+  border-radius: 5px;
 }
 #fullpage #section6 .container a .content p {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 20px;
   overflow: hidden;
   letter-spacing: -0.5px;
