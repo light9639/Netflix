@@ -945,7 +945,7 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   font-size: 16px;
   font-weight: 300;
   text-align: center;
-  line-height: 1.25;
+  line-height: 1.5;
   margin-top: 20px;
   color: #fff;
 }
@@ -1001,7 +1001,7 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   left: 15%;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.5;
   margin-top: 50px;
   color: #fff;
 }
@@ -1255,7 +1255,7 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   }
 }
 #fullpage #section4 .slide .inner .slide_text {
-  line-height: 1.25;
+  line-height: 1.5;
   padding-top: 5px;
 }
 #fullpage #section4 .slide .inner .slide_Main {
@@ -1548,7 +1548,7 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   width: 100%;
 }
 #fullpage #section6 .container a .content span {
-  padding: 10px 15px;
+  padding: 8.5px 15px;
   background-color: rgba(255, 0, 0, 0.75);
   color: #fff;
   -webkit-transition: 0.5s;
@@ -1581,28 +1581,25 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
     padding-bottom: 100px;
   }
 }
-#fullpage #section6 .section6_more span:hover a {
-  color: red;
-}
-#fullpage #section6 .section6_more span:hover a:last-child {
-  margin-left: 15px;
-}
-#fullpage #section6 .section6_more span a {
+#fullpage #section6 .section6_more a {
+  margin: auto 0;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  margin: auto 0;
 }
 @media screen and (max-width: 540px) {
-  #fullpage #section6 .section6_more span a {
+  #fullpage #section6 .section6_more a {
     font-size: 18px;
   }
 }
-#fullpage #section6 .section6_more span a:first-child {
+#fullpage #section6 .section6_more a:first-child {
   padding-right: 5px;
 }
+#fullpage #section6 .section6_more a svg {
+  margin: auto;
+}
 @media screen and (max-width: 540px) {
-  #fullpage #section6 .section6_more span a svg {
+  #fullpage #section6 .section6_more a svg {
     margin-top: 5px;
   }
 }
