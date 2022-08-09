@@ -1582,7 +1582,6 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   }
 }
 #fullpage #section6 .section6_more a {
-  margin: auto 0;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1592,15 +1591,32 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
     font-size: 18px;
   }
 }
-#fullpage #section6 .section6_more a:first-child {
-  padding-right: 5px;
+#fullpage #section6 .section6_more a:hover {
+  color: red;
+}
+#fullpage #section6 .section6_more a:hover svg {
+  -webkit-transform: translate(150%, 22%);
+          transform: translate(150%, 22%);
+  fill: red;
+}
+@media screen and (max-width: 540px) {
+  #fullpage #section6 .section6_more a:hover svg {
+    -webkit-transform: translate(150%, 25%);
+            transform: translate(150%, 25%);
+  }
 }
 #fullpage #section6 .section6_more a svg {
-  margin: auto;
+  -webkit-transform: translate(25%, 22%);
+          transform: translate(25%, 22%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  fill: #fff;
 }
 @media screen and (max-width: 540px) {
   #fullpage #section6 .section6_more a svg {
-    margin-top: 5px;
+    width: 24px;
+    -webkit-transform: translate(25%, 25%);
+            transform: translate(25%, 25%);
   }
 }
 #fullpage footer {

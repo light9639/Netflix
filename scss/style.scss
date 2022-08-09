@@ -1433,33 +1433,32 @@ header {
             @include respond($mobile767) {
                 padding-bottom: 100px;
             }
-            // span {
-                // margin: auto 0;
-
-                // &:hover a {
-                //     color: $메인컬러;
-                // }
-                // &:hover a:last-child {
-                //     margin-left: 15px;
-                // }
-                a {
-                    margin: auto 0;
-                    font-size: 20px;
-                    transition: .5s;
+            a {
+                font-size: 20px;
+                transition: .5s;
+                @include respond($mobile540) {
+                    font-size: 18px;
+                }
+                &:hover {
+                    color: $메인컬러;
+                }
+                &:hover svg {
+                    transform: translate(150%, 22%);
+                    fill: $메인컬러;
                     @include respond($mobile540) {
-                        font-size: 18px;
-                    }
-                    &:first-child {
-                        padding-right: 5px;
-                    }
-                    svg {
-                        margin: auto;
-                        @include respond($mobile540) {
-                            margin-top: 5px;
-                        }
+                        transform: translate(150%, 25%);
                     }
                 }
-            // }
+                svg {
+                    transform: translate(25%, 22%);
+                    transition: .5s;
+                    fill: #fff;
+                    @include respond($mobile540) {
+                        width: 24px;
+                        transform: translate(25%, 25%);
+                    }
+                }
+            }
         }
     }
 
