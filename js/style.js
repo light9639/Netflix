@@ -1,7 +1,5 @@
 // 풀페이지 js
 new fullpage('#fullpage', {
-  // navigation: true,
-  // navigationPosition: 'right',
   scrollingSpeed: 750,
   slidesNavigation: true,
   dragAndMove: true,
@@ -81,23 +79,11 @@ $(function () {
     $(".wrapper>.content>aside").removeClass("active");
   })
 
-  // 1024px 일때 스크롤 있는 걸로 바꾸는 식
-  // if ($(window).width() <= 1024){
-  //   $('header').addClass('on');
-  // } else{
-  //     $('header').removeClass('on');
-  //     $('#fullpage').fullpage({
-  //         verticalCentered: true,
-  //     });
-  // }
   $(window).resize(function(){
       if($(window).width() <= 1024){
           $('header').addClass('on');
       } else{
           $('header').removeClass('on');
-          // $('#fullpage').fullpage({
-          //     verticalCentered: true,
-          // });
       }
   });
 });
