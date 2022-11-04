@@ -20,17 +20,17 @@ $(function () {
     loopFillGroupWithBlank: true,
     slidesPerView: 2,
     pagination: {
-        el: ".preview-pagination",
-        clickable: true,
+      el: ".preview-pagination",
+      clickable: true,
     },
     navigation: {
-        nextEl: ".preview-next",
-        prevEl: ".preview-prev",
+      nextEl: ".preview-next",
+      prevEl: ".preview-prev",
     },
     breakpoints: {
-        0: { slidesPerView: 1, spaceBetween: 20 },
-        767: { slidesPerView: 2, spaceBetween: 20 },
-        1024: { slidesPerView: 2, spaceBetween: 30 }
+      0: { slidesPerView: 1, spaceBetween: 20 },
+      767: { slidesPerView: 2, spaceBetween: 20 },
+      1024: { slidesPerView: 2, spaceBetween: 30 }
     }
   });
 
@@ -40,29 +40,29 @@ $(function () {
     loop: true,
     loopFillGroupWithBlank: true,
     autoplay: {
-        delay: 3000,
+      delay: 3000,
     },
     pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+      el: ".swiper-pagination",
+      clickable: true,
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     breakpoints: {
-        0: { slidesPerView: 1, spaceBetween: 20 },
-        540: { slidesPerView: 2, spaceBetween: 20 },
-        767: { slidesPerView: 3, spaceBetween: 20 },
-        1024: { slidesPerView: 3.15, spaceBetween: 30 }
+      0: { slidesPerView: 1, spaceBetween: 20 },
+      540: { slidesPerView: 2, spaceBetween: 20 },
+      767: { slidesPerView: 3, spaceBetween: 20 },
+      1024: { slidesPerView: 3.15, spaceBetween: 30 }
     }
   });
 
   // carrousel 배너 적용
   $('#dg-container').carrousel({
-      current: 0,
-      autoplay: false,
-      interval: 3000
+    current: 0,
+    autoplay: false,
+    interval: 3000
   });
   // carrousel 배너 각 배너별 적용
   $(".g-scrolling-carousel1 .items").gScrollingCarousel();
@@ -79,11 +79,11 @@ $(function () {
     $(".wrapper>.content>aside").removeClass("active");
   })
 
-  $(window).resize(function(){
-      if($(window).width() <= 1024){
-          $('header').addClass('on');
-      } else{
-          $('header').removeClass('on');
-      }
+  $(window).resize(function () {
+    if ($(window).width() <= 1024) {
+      $('header').addClass('on');
+    } else {
+      $('header').removeClass('on');
+    }
   });
 });
