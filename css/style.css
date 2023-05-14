@@ -209,12 +209,14 @@ span {
 .wrapper .content aside a:hover {
   color: #fff;
 }
-.wrapper .content aside a i, .wrapper .content aside a img {
+.wrapper .content aside a i,
+.wrapper .content aside a img {
   width: 20px;
   text-align: center;
   margin-right: 6px;
 }
-.wrapper .content aside a, .wrapper .content aside input[type=search] {
+.wrapper .content aside a,
+.wrapper .content aside input[type=search] {
   color: #fff;
   display: block;
   font-weight: 300;
@@ -444,9 +446,7 @@ header .innerBox nav #nav > li {
 }
 header .innerBox nav #nav > li > a {
   position: relative;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
   color: #fff;
   opacity: 0.75;
   padding-bottom: 20px;
@@ -576,8 +576,9 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
 }
 
 #fullpage #section0 .layer h1 {
-  font-size: 40px;
-  margin-bottom: 55px;
+  font-size: 2.25rem;
+  line-height: 1.75;
+  margin-bottom: 35px;
 }
 @media screen and (max-width: 1024px) {
   #fullpage #section0 .layer h1 {
@@ -587,7 +588,6 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
 @media screen and (max-width: 767px) {
   #fullpage #section0 .layer h1 {
     font-size: 26px;
-    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -597,12 +597,11 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
 }
 #fullpage #section0 .layer span a {
   font-family: arial, helvetica;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 500;
-  background: -webkit-gradient(linear, left top, right top, color-stop(5%, #333), color-stop(95%, #181818));
-  background: linear-gradient(90deg, #333 5%, #181818 95%);
+  background: #111;
   border-radius: 7.5px;
-  padding: 20px 40px 20px 30px;
+  padding: 20px;
   color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -613,7 +612,7 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
 @media screen and (max-width: 1024px) {
   #fullpage #section0 .layer span a {
     font-size: 18px;
-    padding: 15px 30px 15px 20px;
+    padding: 15px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -627,17 +626,10 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   }
 }
 #fullpage #section0 .layer span a img {
-  width: 50px;
-  height: 40px;
-  margin-top: -11px;
+  width: 40px;
+  height: 30px;
+  margin-top: -7.5px;
   padding-right: 5px;
-}
-@media screen and (max-width: 1024px) {
-  #fullpage #section0 .layer span a img {
-    width: 40px;
-    height: 30px;
-    margin-top: -7.5px;
-  }
 }
 @media screen and (max-width: 480px) {
   #fullpage #section0 .layer span a img {
@@ -678,13 +670,13 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: left;
+  padding: 1rem;
 }
 @media screen and (max-width: 1024px) {
   #fullpage #section1 .innerBox {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     text-align: center;
-    padding: 1rem;
   }
 }
 #fullpage #section1 .innerBox img {
@@ -712,7 +704,7 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
 #fullpage #section1 .innerBox > div p {
   font-size: 18px;
   font-weight: 500;
-  line-height: 2;
+  line-height: 1.75;
   letter-spacing: -0.5px;
   color: silver;
 }
@@ -1545,7 +1537,7 @@ header .innerBox .btns .btn svg:hover path, header .innerBox .btns .btn svg:hove
   width: 100%;
 }
 #fullpage #section6 .container a .content span {
-  padding: 8.5px 15px;
+  padding: 7.5px 15px 8.5px;
   background-color: rgba(255, 0, 0, 0.75);
   color: #fff;
   -webkit-transition: 0.5s;
